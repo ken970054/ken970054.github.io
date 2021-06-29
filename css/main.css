@@ -30,16 +30,20 @@ section {
 	pading: 3rem 0;	
 }
 
+.container {
+	margin-inline: auto;
+}
+
 
 .bg-light { 
 	background-color: var(--clr-primary-200);
 }
 .bg-primary { 
 	color: var(--clr-netural-100);
-	background-color: #824936;
+	background-color: var(--clr-netural-900);
 }
 .bg-dark { 
-	background-color: var(--clr-netural-900);
+	background-color: var(--clr-netural-200);
 }
 
 .bg-primary h2,
