@@ -20,18 +20,58 @@ body {
 h1,
 h2,
 h3 {
+	color: var(--clr-primary-400)
 	font-family: var(--ff-accent);
 	font-weight: 900;
 	line-height: 1;
 }
 
+h2,
+h3,
+p {
+	margin-bottom: 1em;
+}
 
+/* important img setting, make sure the image can always fit in the screen*/
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.text-center {
+	text-align: center;
+}
+
+header,
 section {
 	pading: 3rem 0;	
 }
 
 .container {
 	margin-inline: auto;
+	width: min(90%, 70.5rem);
+}
+
+.split {
+	/* make div become two column*/
+	display: flex;
+	/* when in small screen, the text can be in the same column*/
+	flex-direction: column;
+}
+
+@media (min-width: 40rem) {
+	.split {
+		flex-direction: row;
+	}
+	
+	/* all the direct children of my split will have flex-basis */
+	.split > * {
+		flex-basis: 100%;
+	}
+}
+
+.container--narrow {
+	max-width: 30rem;
 }
 
 
