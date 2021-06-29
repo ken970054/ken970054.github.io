@@ -51,6 +51,13 @@ section {
 	pading: 3rem 0;	
 }
 
+@media (min-width: 40rem) {
+	header,
+	section {
+		padding: 7em 0;
+	}
+}
+
 .container {
 	margin-inline: auto;
 	width: min(90%, 70.5rem);
@@ -71,6 +78,10 @@ section {
 	/* all the direct children of my split will have flex-basis */
 	.split > * {
 		flex-basis: 100%;
+	}
+	
+	.split > * + * {
+		margin-left: 2em;
 	}
 }
 
