@@ -26,11 +26,11 @@ h3 {
 }
 
 .bg-light { 
-	background-color: --clr-primary-200
+	background-color: var(--clr-primary-200);
 }
 .bg-primary { 
-	background-color: --clr-primary-400
+	background-color: var(--clr-primary-400);
 }
 .bg-dark { 
-	background-color: --clr-netural-900
+	background-color: var(--clr-netural-900);
 }
