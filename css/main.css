@@ -10,11 +10,27 @@
 	--ff-accent: 'Playfair Display', serif;
 }
 
+
+/* broader box sizing */
+*,.
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: var(--ff-primary);
 	font-weight: 400;
 	font-size: 1.3125rem;
 	line-height: 1.6;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+	margin: 0;
 }
 
 h1,
@@ -42,9 +58,9 @@ img {
 	text-align: center;
 }
 
-.header-text {
+/*.header-text {
 	color: #f0f0f0;
-}
+}*/
 
 header,
 section {
@@ -98,6 +114,7 @@ section {
 	background-color: var(--clr-netural-900);
 }
 .bg-dark { 
+	color: var(--clr-netural-100);
 	background-color: var(--clr-netural-200);
 }
 
