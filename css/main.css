@@ -64,13 +64,16 @@ img {
 
 header,
 section {
-	padding: 2rem 0;	
+	padding: 3rem 0;	
 }
 
 @media (min-width: 40em) {
-	header,
+	header {
+		min-height: 50%;
+		padding: 7rem 0;
+	}
 	section {
-		padding: 5rem 0;
+		padding: 7rem 0;
 	}
 }
 
