@@ -68,12 +68,9 @@ section {
 }
 
 @media (min-width: 40em) {
-	header {
-		height: 15rem;
-		padding: 7rem 0;
-	}
+	header,
 	section {
-		padding: 7rem 0;
+		padding: 5rem 0;
 	}
 }
 
