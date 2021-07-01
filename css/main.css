@@ -36,7 +36,7 @@ p {
 h1,
 h2,
 h3 {
-	color: var(--clr-primary-400)
+	/*color: var(--clr-primary-400)*/
 	font-family: var(--ff-accent);
 	font-weight: 900;
 	line-height: 1;
@@ -70,7 +70,7 @@ section {
 @media (min-width: 40em) {
 	header,
 	section {
-		padding: 2rem 0;
+		padding: 5rem 0;
 	}
 }
 
