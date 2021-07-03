@@ -48,6 +48,10 @@ p {
 	margin-bottom: 1em;
 }
 
+h3 {
+	color: #DAA520;
+}
+
 /* important img setting, make sure the image can always fit in the screen*/
 img {
 	display: block;
