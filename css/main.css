@@ -97,7 +97,7 @@ section {
 	}
 	
 	.split > * + * {
-		margin-left: 2em;
+		margin-left: 4em;
 	}
 }
 
@@ -122,3 +122,9 @@ section {
 .bg-dark h2 {
 	color: var(--clr-nprimary-200);
 }
+
+
+/* detail setup */
+
+
+
